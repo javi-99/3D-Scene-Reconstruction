@@ -11,7 +11,7 @@ Structure-from-Motion (SfM) is the process of reconstructing 3D structure from i
 |Block Diagram of SFM |
 
 #### Results
-| ![frog](Images/frog.gif){:height="700px" width="400px"} |  ![cup](Images/cup.gif){:height="700px" width="400px"} | 
+| <img src="Images/frog.gif" width="400" height="400"> |  ![cup](Images/cup.gif){:height="700px" width="400px"} | 
 |:--:| :--: | 
 |Reconstructed Frog-Bin | Reconstructed Cup |
 
