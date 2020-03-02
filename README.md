@@ -5,4 +5,5 @@ Structure-from-Motion (SfM) is the process of reconstructing 3D structure from i
    1. Feature detection and extraction
    2. Feature matching and geometric verification
    3. Structure and motion reconstruction
+  ![A Block Diagram of SFM ](Images/image36.png)
 
