@@ -13,18 +13,20 @@ Structure-from-Motion (SfM) is the process of reconstructing 3D structure from i
 </p>
 
 #### Results
+<p align="center">
 | <img src="Images/frog.gif" width="350" height="350"> |  <img src="Images/cup.gif" width="350" height="350"> | 
 |:--:| :--: | 
 |Reconstructed Frog-Bin | Reconstructed Cup |
-
+</p>
 
 
 ## 2. Intrinsic3D
 
 #### Results
+<p align="center">
 | <img src="Images/lion.gif" width="350" height="350"> |  <img src="Images/lion.gif" width="350" height="350"> | 
 |:--:| :--: | 
 | Reconstructed Refined Lion | Reconstructed Refined Lion|
-
+</p>
 
 
