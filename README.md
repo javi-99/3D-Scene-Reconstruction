@@ -37,28 +37,10 @@ Replicated Results:SDF-based dif-ferentiable renderer can be integrated with dee
 
 **Results**
 
-| Res 56 |
-<img src = "Images/SDFDiff/grid_res_56_target_12.png" width="50" height="50"> | 
-<img src = "Images/SDFDiff/grid_res_56_target_14.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_56_target_17.png" width="70" height="70"> |  
-<img src = "Images/SDFDiff/grid_res_56_target_21.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_56_target_25.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_56_target_9.png" width="70" height="70">  |
-| Res 32 |
-<img src = "Images/SDFDiff/grid_res_32_target_12.png" width="50" height="50"> | 
-<img src = "Images/SDFDiff/grid_res_32_target_14.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_32_target_17.png" width="70" height="70"> |  
-<img src = "Images/SDFDiff/grid_res_32_target_21.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_32_target_25.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_32_target_9.png" width="70" height="70">  |
-| Res 16 |
-<img src = "Images/SDFDiff/grid_res_16_target_12.png" width="50" height="50"> | 
-<img src = "Images/SDFDiff/grid_res_16_target_14.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_16_target_17.png" width="70" height="70"> |  
-<img src = "Images/SDFDiff/grid_res_16_target_21.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_16_target_25.png" width="70" height="70"> | 
-<img src = "Images/SDFDiff/grid_res_16_target_9.png" width="70" height="70">  |
-
+| Res 56 | <img src = "Images/SDFDiff/grid_res_56_target_12.png" width="50" height="50"> |<img src = "Images/SDFDiff/grid_res_56_target_14.png" width="70" height="70"> | <img src = "Images/SDFDiff/grid_res_56_target_17.png" width="70" height="70"> |<img src = "Images/SDFDiff/grid_res_56_target_21.png" width="70" height="70"> | <img src ="Images/SDFDiff/grid_res_56_target_25.png" width="70" height="70"> |<img src = "Images/SDFDiff/grid_res_56_target_9.png" width="70" height="70">  |
+|Res 32 | <img src = "Images/SDFDiff/grid_res_32_target_12.png" width="50" height="50"> | <img src = "Images/SDFDiff/grid_res_32_target_14.png" width="70" height="70"> | <img src = "Images/SDFDiff/grid_res_32_target_17.png" width="70" height="70"> | <img src = "Images/SDFDiff/grid_res_32_target_21.png" width="70" height="70"> | <img src = "Images/SDFDiff/grid_res_32_target_25.png" width="70" height="70"> | <img src = "Images/SDFDiff/grid_res_32_target_9.png" width="70" height="70">  |
+| Res 16 | <img src = "Images/SDFDiff/grid_res_16_target_12.png" width="50" height="50"> | <img src = "Images/SDFDiff/grid_res_16_target_14.png" width="70" height="70"> |<img src = "Images/SDFDiff/grid_res_16_target_17.png" width="70" height="70"> |  <img src = "Images/SDFDiff/grid_res_16_target_21.png" width="70" height="70"> | 
+<img src = "Images/SDFDiff/grid_res_16_target_25.png" width="70" height="70"> |<img src = "Images/SDFDiff/grid_res_16_target_9.png" width="70" height="70">  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |-| Rendered 1  | Rendered 2 | Rendered 3 | Rendered 4 | Rendered 5 | Rendered 6 |
 
