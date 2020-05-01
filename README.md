@@ -36,7 +36,7 @@ Replicated Results: Scene Representation Networks (SRNs), a continuous, 3D-struc
 Replicated Results:SDF-based dif-ferentiable renderer can be integrated with deep learningmodels, which opens up options for learning approaches on3D objects without 3D supervision.
 
 **Results**
-| <img src = "Images/SDFDiff/grid_res_64_target_25.png" width="50" height="50"> | <img src = "Images/SDFDiff/grid_res_48_target_25.png" width="50" height="50"> | <img src="Images/SDFDiff/grid_res_32_target_25.png" width="50" height="50"> |  <img src="Images/SDFDiff/grid_res_24_target_25.png" width="50" height="50"> | <img src="Images/SDFDiff/grid_res_16_target_25.png" width="50" height="50"> | <img src="Images/SDFDiff/grid_res_8_target_25.png" width="50" height="50"> |
+| <img src = "Images/SDFDiff/grid_res_56_target_12.png" width="50" height="50"> | <img src = "Images/SDFDiff/grid_res_56_target_14.png" width="50" height="50"> | <img src="Images/SDFDiff/grid_res_56_target_17.png" width="50" height="50"> |  <img src="Images/SDFDiff/grid_res_56_target_21.png" width="50" height="50"> | <img src="Images/SDFDiff/grid_res_56_target_25.png" width="50" height="50"> | <img src="Images/SDFDiff/grid_res_56_target_9.png" width="50" height="50"> |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 64  | 48  | 32  | 24  | 16  |  8  |
+| Rendered 1  | Rendered 2 | Rendered 3 | Rendered 4 | Rendered 5 | Rendered 6 |
 
