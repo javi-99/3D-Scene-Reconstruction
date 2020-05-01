@@ -35,4 +35,8 @@ Replicated Results: Scene Representation Networks (SRNs), a continuous, 3D-struc
 ## 4. SDFDiff: Differentiable Rendering of Signed Distance Fields for 3D ShapeOptimization (CVPR-2020)
 Replicated Results:SDF-based dif-ferentiable renderer can be integrated with deep learningmodels, which opens up options for learning approaches on3D objects without 3D supervision.
 
+**Results**
+| <img src="Images/sdf/kk" width="50" height="50"> | <img src="Images/sdf/kk" width="50" height="50">| 
+|:--:| :--: | 
+| CC | VV |
 
