@@ -42,6 +42,7 @@ Replicated Results:SDF-based dif-ferentiable renderer can be integrated with dee
  <img src="Images/SDFDiff/grid_res_32_target_25.png" width="50" height="50"> |
  <img src="Images/SDFDiff/grid_res_16_target_25.png" width="50" height="50"> |
  <img src="Images/SDFDiff/grid_res_8_target_25.png" width="50" height="50"> |
+
 |:--:| :--: |:--:| :--: | :--:| :--: |
 | 64 | 48 | 32 | 16 | 8 |
 
