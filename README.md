@@ -35,11 +35,11 @@ Replicated Results: Scene Representation Networks (SRNs), a continuous, 3D-struc
 ## 4. SDFDiff: Differentiable Rendering of Signed Distance Fields for 3D ShapeOptimization (CVPR-2020)
 Replicated Results:SDF-based dif-ferentiable renderer can be integrated with deep learningmodels, which opens up options for learning approaches on3D objects without 3D supervision.
 
-**Results**
+**Multi-View-3D Resconstruction Results**
 | Res 56 | <img src = "Images/SDFDiff/grid_res_56_target_12.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_56_target_14.png" width="120" height="120"> | <img src = "Images/SDFDiff/grid_res_56_target_17.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_56_target_21.png" width="120" height="120"> | <img src ="Images/SDFDiff/grid_res_56_target_25.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_56_target_9.png" width="120" height="120">  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Res 32 | <img src = "Images/SDFDiff/grid_res_32_target_12.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_32_target_14.png" width="120" height="120"> | <img src = "Images/SDFDiff/grid_res_32_target_17.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_32_target_21.png" width="120" height="120"> | <img src ="Images/SDFDiff/grid_res_32_target_25.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_32_target_9.png" width="120" height="120"> |
 | Res 16 | <img src = "Images/SDFDiff/grid_res_16_target_12.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_16_target_14.png" width="120" height="120"> | <img src = "Images/SDFDiff/grid_res_16_target_17.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_16_target_21.png" width="120" height="120"> | <img src ="Images/SDFDiff/grid_res_16_target_25.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_16_target_9.png" width="120" height="120"> |
 | Res 8 | <img src = "Images/SDFDiff/grid_res_8_target_12.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_8_target_14.png" width="120" height="120"> | <img src = "Images/SDFDiff/grid_res_8_target_17.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_8_target_21.png" width="120" height="120"> | <img src ="Images/SDFDiff/grid_res_8_target_25.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_8_target_9.png" width="120" height="120"> |
-|-| Rendered 1  | Rendered 2 | Rendered 3 | Rendered 4 | Rendered 5 | Rendered 6 |
+|-| Rendered View 1  | Rendered View 2 | Rendered View 3 | Rendered View 4 | Rendered View 5 | Rendered View 6 |
 
