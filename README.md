@@ -1,4 +1,4 @@
-# 3D Object & Scene Reconstruction using Few 2D Images
+# 3D Reconstruction from Single-View and Multi-View
 I work on 3D scene reconstructions based on classical computer-vision and deep learning methods
 
 ## 1. Structure-from-Motion
