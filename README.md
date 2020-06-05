@@ -37,8 +37,8 @@
 # Deep Learning Based Methods
 ## 1. SDFDiff 
 ### Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization (CVPR-2020)
-**Repelicated Code and Experimental Work**
-SDF-based dif-ferentiable renderer can be integrated with deep learningmodels, which opens up options for learning approaches on 3D objects without 3D supervision.
+<br/>**Repelicated Code and Experimental Work**
+<br/> SDF-based differentiable renderer can be integrated with deep learning models, which opens up options for learning approaches on 3D objects without 3D supervision.
 
 **Multi-View-3D Resconstruction Results**
 <br/> based on Signed Distance Field and Differentiable Rendering
@@ -52,6 +52,7 @@ SDF-based dif-ferentiable renderer can be integrated with deep learningmodels, w
 ## 2. Differentiable Volumetric Rendering
 ### Learning Implicit 3D Representations without 3D Supervision
 Proposes an analytic gradients for the predicted depth map with respect to the network parameters of the implicit shape and texture representation. It use ShapeNet data for single-view 3D reconstruction and real dataset to evaluate multi-view 3D reconstruction performance.
+<br/>
 **Repelicated Code and Experimental Work**
 <br/> I am currently implementing this paper and finding one direction for my publication, any collaboration will be welcomed.
 
