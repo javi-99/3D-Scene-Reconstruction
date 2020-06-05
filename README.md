@@ -15,7 +15,7 @@
 </p>
 
 **Results**
-3D shape and texture reconstruction of a Frog-Bin and Cup using 35 and 63 multi-view images respectively
+<br/> 3D shape and texture reconstruction of a Frog-Bin and Cup using 35 and 63 multi-view images respectively
 | <img src="Images/frog.gif" width="350" height="350"> |  <img src="Images/cup.gif" width="350" height="350"> | 
 |:--:| :--: | 
 |Reconstructed Frog-Bin | Reconstructed Cup |
