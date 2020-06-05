@@ -1,7 +1,7 @@
-# Single-View and Multi-View 3D Reconstruction using Deep Learning
-I work on 3D scene reconstructions based on classical computer-vision and deep learning methods
+# Single-View & Multi-View 3D Reconstruction
+### Based on classical Computer-Vision and Deep Learning Methods
 
-## 1. Structure-from-Motion
+## 1. Structure-from-Motion (Classic)
 **Repelicated Papers and Our Experimental Work**
 <br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images. Typically, Structure-from-Motion systems divide this process into three stages:
    * Feature detection and extraction
