@@ -7,8 +7,9 @@ I work on 3D scene reconstructions based on classical computer-vision and deep l
    * Feature detection and extraction
    * Feature matching and geometric verification
    * Structure and motion reconstruction
+
 **Block Diagram of SFM**
-After working on relevant research papers and provided tools, Overall method is depicted in our block diagram.
+<br/> After working on relevant research papers and provided tools, Overall method is depicted in our block diagram.
 <p align="center">
 <img src="./Images/image36.png" width="800" title="Block Diagram of SFM">
 </p>
