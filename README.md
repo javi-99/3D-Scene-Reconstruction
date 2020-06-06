@@ -16,7 +16,7 @@
 
 **Repelicated Codes and Experimentals on Our Data**
 <br/> 3D shape and texture reconstruction of a Frog-Bin and Cup using 35 and 63 multi-view images respectively
-| <img src="Images/frog.gif" width="300" height="300"> |  <img src="Images/cup.gif" width="360" height="360"> | 
+| <img src="Images/frog.gif" width="300" height="300"> |  <img src="Images/cup.gif" width="300" height="300"> | 
 |:--:| :--: | 
 |Reconstructed Frog-Bin | Reconstructed Cup |
 
@@ -39,10 +39,10 @@
 <br/>
 <br/> **Repelicated Code and Experiments on Synthetic and Real Dataset**
 <br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task as **Agustus** and **Flower** are real objects and the 3D scene is very rough. 
-| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" width="400" height="150">|
+| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" width="450" height="150">|
 |:---:|:---:|
-| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="400" height="150"> |
-| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="400" height="150">|
+| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="450" height="150"> |
+| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="450" height="150">|
 
 
 ## 2. SDFDiff 
