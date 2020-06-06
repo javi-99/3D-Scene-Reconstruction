@@ -11,12 +11,12 @@
 **Block Diagram of SFM**
 <br/> After working on relevant research papers and provided tools, Overall method is depicted in our block diagram.
 <p align="center">
-<img src="./Images/image36.png" width="800" title="Block Diagram of SFM">
+<img src="./Images/image36.png" width="750" title="Block Diagram of SFM">
 </p>
 
 **Repelicated Codes and Experimentals on Our Data**
 <br/> 3D shape and texture reconstruction of a Frog-Bin and Cup using 35 and 63 multi-view images respectively
-| <img src="Images/frog.gif" width="350" height="350"> |  <img src="Images/cup.gif" width="350" height="350"> | 
+| <img src="Images/frog.gif" width="300" height="300"> |  <img src="Images/cup.gif" width="360" height="360"> | 
 |:--:| :--: | 
 |Reconstructed Frog-Bin | Reconstructed Cup |
 
@@ -27,9 +27,9 @@
 
 <br/> **Repelicated Code and Experimental Work**
 <br/> Tested on the same RGB-D data used in this paper 
-| <img src="Images/lion.gif" width="350" height="350"> |  <img src="Images/lion.gif" width="350" height="350"> | 
-|:--:| :--: | 
-| Reconstructed Refined Lion | Reconstructed Refined Lion|
+| <img src="Images/lion.gif" width="300" height="300"> |
+|:--:| 
+| Reconstructed Refined Lion |
 
 
 # Deep Learning Based Methods
@@ -39,10 +39,10 @@
 <br/>
 <br/> **Repelicated Code and Experiments on Synthetic and Real Dataset**
 <br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task as **Agustus** and **Flower** are real objects and the 3D scene is very rough. 
-| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" width="360" height="120">|
+| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" width="400" height="150">|
 |:---:|:---:|
-| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="360" height="120"> |
-| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="360" height="120">|
+| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="400" height="150"> |
+| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="400" height="150">|
 
 
 ## 2. SDFDiff 
