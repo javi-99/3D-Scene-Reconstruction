@@ -36,12 +36,13 @@
 ## 1. Scene Representation Network: 
 ### Continuous 3D-Structure-Aware Neural Scene Representations (NeurIPS 2019)
 <br/> Scene Representation Networks (SRNs), a continuous, 3D-structure-aware scene representation that encodes both geometry and appearance. SRNs represent scenes as continuous functions that map world coordinates to a feature representation of local scene properties. By formulating the image formation as a neural, 3D-aware rendering algorithm, SRNs can be trained end-to-end from only 2D observations, without access to depth or geometry. SRNs do not discretize space, smoothly parameterizing scene surfaces, and their memory complexity does not scale directly with scene resolution.
+<br/>
 <br/> **Repelicated Code and Experiments on Synthetic and Real Dataset**
-<br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task. 
-| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" > |
+<br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task as **Agustus** and **Flower** are real objects and the 3D scene is very rough. 
+| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" > width="120" height="120">|
 |:---:|:---:|
-| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif" > |
-| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" > |
+| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif" > width="120" height="120"> |
+| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" > width="120" height="120">|
 
 
 ## 2. SDFDiff 
