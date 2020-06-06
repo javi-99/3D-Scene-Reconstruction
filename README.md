@@ -43,7 +43,7 @@
 |:---:|:---:|
 | Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="450" height="150"> |
 | Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="450" height="150">|
-| |Normal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rendered &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Groundtruth|
+| |**Normals** &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Rendered** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Groundtruth**|
 
 ## 2. SDFDiff 
 ### Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization (CVPR-2020)
