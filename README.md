@@ -39,12 +39,11 @@
 <br/>
 <br/> **Repelicated Code and Experiments on Synthetic and Real Dataset**
 <br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task as **Agustus** and **Flower** are real objects and their 3D scene is rough.
-| |Normal Rendered Groundtruth|
 | ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" width="450" height="150">|
 |:---:|:---:|
 | Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="450" height="150"> |
 | Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="450" height="150">|
-
+| |Normal Rendered Groundtruth|
 
 ## 2. SDFDiff 
 ### Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization (CVPR-2020)
