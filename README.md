@@ -33,7 +33,16 @@
 
 
 # Deep Learning Based Methods
-## 1. SDFDiff 
+## 1. Scene Representation Network: 
+### Continuous 3D-Structure-Aware Neural Scene Representations (NeurIPS 2019)
+<br/> Scene Representation Networks (SRNs), a continuous, 3D-structure-aware scene representation that encodes both geometry and appearance. SRNs represent scenes as continuous functions that map world coordinates to a feature representation of local scene properties. By formulating the image formation as a neural, 3D-aware rendering algorithm, SRNs can be trained end-to-end from only 2D observations, without access to depth or geometry. SRNs do not discretize space, smoothly parameterizing scene surfaces, and their memory complexity does not scale directly with scene resolution.
+<br/> **Repelicated Code and Experiments on Synthetic and Real Dataset**
+<br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task. 
+| ShapeNet | <img src = "Images/SRNs/cars.gif > |
+|:---:|:---:|
+
+
+## 2. SDFDiff 
 ### Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization (CVPR-2020)
 <br/> SDF-based differentiable renderer can be integrated with deep learning models, which opens up options for learning approaches on 3D objects without 3D supervision.
 <br/> **Repelicated Code and Experimental Work**
@@ -46,7 +55,7 @@
 | Res 8 | <img src = "Images/SDFDiff/grid_res_8_target_12.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_8_target_14.png" width="120" height="120"> | <img src = "Images/SDFDiff/grid_res_8_target_17.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_8_target_21.png" width="120" height="120"> | <img src ="Images/SDFDiff/grid_res_8_target_25.png" width="120" height="120"> |<img src = "Images/SDFDiff/grid_res_8_target_9.png" width="120" height="120"> |
 |-| Rendered View 1  | Rendered View 2 | Rendered View 3 | Rendered View 4 | Rendered View 5 | Rendered View 6 |
 
-## 2. Differentiable Volumetric Rendering
+## 3. Differentiable Volumetric Rendering
 ### Learning Implicit 3D Representations without 3D Supervision
 Proposes an analytic gradients for the predicted depth map with respect to the network parameters of the implicit shape and texture representation. It use ShapeNet data for single-view 3D reconstruction and real dataset to evaluate multi-view 3D reconstruction performance.
 <br/>
@@ -54,8 +63,4 @@ Proposes an analytic gradients for the predicted depth map with respect to the n
 <br/> I am currently implementing this paper and finding one direction for my publication, any collaboration will be welcomed.
 
 
-## 3. Scene Representation Network: 
-### Continuous 3D-Structure-Aware Neural Scene Representations (NeurIPS 2019)
-<br/> Scene Representation Networks (SRNs), a continuous, 3D-structure-aware scene representation that encodes both geometry and appearance. SRNs represent scenes as continuous functions that map world coordinates to a feature representation of local scene properties. By formulating the image formation as a neural, 3D-aware rendering algorithm, SRNs can be trained end-to-end from only 2D observations, without access to depth or geometry. SRNs do not discretize space, smoothly parameterizing scene surfaces, and their memory complexity does not scale directly with scene resolution.
-<br/> **Repelicated Code and Experimental Work**
-<br/> 
+
