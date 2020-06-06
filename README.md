@@ -39,10 +39,10 @@
 <br/>
 <br/> **Repelicated Code and Experiments on Synthetic and Real Dataset**
 <br/>  Tweaked and evaluated SRNs on real objects for novel views generation and it failed in this task as **Agustus** and **Flower** are real objects and the 3D scene is very rough. 
-| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" > width="120" height="120">|
+| ShapeNet (Sythetic Data) | <img src = "Images/SRNs/cars.gif" width="120" height="120">|
 |:---:|:---:|
-| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif" > width="120" height="120"> |
-| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" > width="120" height="120">|
+| Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="120" height="120"> |
+| Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="120" height="120">|
 
 
 ## 2. SDFDiff 
