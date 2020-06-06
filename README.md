@@ -1,7 +1,5 @@
-# Single-View & Multi-View 3D Reconstruction
-### Based on Classical Computer-Vision and Deep Learning Methods
-
-# Classical Methods
+# 3D Reconstruction
+## Classical Methods
 ## 1. Structure-from-Motion
 <br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images. Typically, Structure-from-Motion systems divide this process into three stages:
    * Feature detection and extraction
@@ -31,8 +29,8 @@
 |:--:| 
 | Reconstructed Refined Lion |
 
-
-# Deep Learning Based Methods
+# Single-View & Multi-View 3D Reconstruction 
+## Deep Learning Based Methods
 ## 1. Scene Representation Network: 
 ### Continuous 3D-Structure-Aware Neural Scene Representations (NeurIPS 2019)
 <br/> Scene Representation Networks (SRNs), a continuous, 3D-structure-aware scene representation that encodes both geometry and appearance. SRNs represent scenes as continuous functions that map world coordinates to a feature representation of local scene properties. By formulating the image formation as a neural, 3D-aware rendering algorithm, SRNs can be trained end-to-end from only 2D observations, without access to depth or geometry. SRNs do not discretize space, smoothly parameterizing scene surfaces, and their memory complexity does not scale directly with scene resolution.
