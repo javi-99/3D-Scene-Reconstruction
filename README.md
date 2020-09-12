@@ -1,15 +1,18 @@
 # 3D Reconstruction
 **Summary**
-The inverse-graphics, such as recovering 3D information from 2D views, is a big challenge. The 3D scene understanding or generating 3D shapes and textures has applications in augmented/virtual reality, computer-aided geometric design, autonomous vehicles, and many more. The traditional multi-view stereo or shape from shading based methods lack in providing surface as prior, have a small resolution, or require volumetric fusion steps. Whereas, the deep learning-based differentiable models provide 3D shape/texture or novel views of a scene without 3D supervision. We can categorize the 3D representation into either
+<br/> The inverse-graphics, such as recovering 3D information from 2D views, is a big challenge. The 3D scene understanding or generating 3D shapes and textures has applications in augmented/virtual reality, computer-aided geometric design, autonomous vehicles, and many more. The traditional multi-view stereo or shape from shading based methods lack in providing surface as prior, have a small resolution, or require volumetric fusion steps. Whereas, the deep learning-based differentiable models provide 3D shape/texture or novel views of a scene without 3D supervision. We can categorize the 3D representation into either
 explicit or implicit. The point-based, voxel-based, and mesh-based are of explicit types, whereas the implicit is the continuous field to get iso-surfaces as a binary classifier decision boundary. The implicit provides high resolution, connectivity, remove the requirement of a deformable mesh template, and avoid patches overlapping in the shape’s geometry. That is why it is more flexible to store complex shapes.
 <br/> **My goal is to have an efficient, expressive, and fully continuous state of the art method for objects in a real scene. The main challenges are perfect camera intrinsic and pose estimation, depth-map, an appropriate data representation able to represent 3D surfaces with complex topologies, and a differentiable neural renderer to provide an accurate and realistic novel views**
 
+
 ### Classical Methods
 ## 1. Structure-from-Motion (Colmap)
-<br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images. Typically, Structure-from-Motion systems divide this process into three stages:
-   * Feature detection and extraction
-   * Feature matching and geometric verification
-   * Structure and motion reconstruction
+<br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images.
+<br/> I have implemented SFM and evaluated on several types of objects and found the following drawbacks.
+  1. Do not have shapes as prior
+  2. Unoccupied regions of an object
+  3. Lossy post-processing steps
+
 
 **Block Diagram of SFM**
 <br/> After working on relevant research papers and provided tools, Overall method is depicted in our block diagram.
