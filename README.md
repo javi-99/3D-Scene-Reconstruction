@@ -28,7 +28,14 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
 
 
 
-# Single-View & Multi-View 3D Reconstruction 
+### Single-View & Multi-View 3D Reconstruction by Differentiable Volumetric Rendering
+I Implemented a differentiable volumetric rendering method, and the idea of the paper is shape and texture reconstruction in continuous implicit representation where the gradient of depth w.r.t. the network parameters θ has been defined by an analytical expression, as shown in the figure below. The main issues where I am working on is to design a model that should be an end-to-end to estimate camera information, lighting, and other material properties while reconstructing any object in a real scene.
+<p align="center">
+<img src="./Images/problem_dvr.gif" width="750" title="Problem in DVR">
+</p>
+
+<!-- +  
+
 ## Deep Learning Based Methods
 ## 1. Scene Representation Network: 
 ### Continuous 3D-Structure-Aware Neural Scene Representations (NeurIPS 2019)
@@ -41,6 +48,8 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
 | Agustus (Real Data) | <img src = "Images/SRNs/agustus.gif"  width="450" height="150"> |
 | Flower (Real Data) | <img src = "Images/SRNs/flower.gif" width="450" height="150">|
 | |**Normals** &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Rendered** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Groundtruth**|
+
++ -->
 
 ## 2. SDFDiff 
 ### Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization (CVPR-2020)
