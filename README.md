@@ -10,23 +10,20 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
 <p align="center">
 <img src="./Images/motivation.gif" width="750" title="A Teaser Image"> </p>
 
-## Classical Method: Structure-from-Motion (Colmap)
-<br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images.
-<br/> I have implemented SFM and evaluated on several types of objects and found the following drawbacks.
+### Classical Method: Structure-from-Motion (Colmap)
+<br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images.I have implemented SFM and evaluated on several types of objects and found the following drawbacks.
   1. Do not have shapes as prior
   2. Unoccupied regions of an object
   3. Lossy post-processing steps
-**Block Diagram of SFM**
-<br/> After working on relevant research papers and provided tools, Overall method is depicted in our block diagram.
+**A brief block diagram of SFM**
 <p align="center">
 <img src="./Images/image36.png" width="750" title="Block Diagram of SFM">
 </p>
 
-**Repelicated Codes and Experimentals on Our Data**
-<br/> 3D shape and texture reconstruction of a Frog-Bin and Cup using 35 and 63 multi-view images respectively
-| <img src="Images/frog.gif" width="300" height="300"> |  <img src="Images/cup.gif" width="300" height="300"> | 
-|:--:| :--: | 
-|Reconstructed Frog-Bin | Reconstructed Cup |
+**Implementation and Problems I Noticed**
+<p align="center">
+<img src="./Images/sfm_failures" width="750" title="Failure Cases in SFM">
+</p>
 
 
 ## 2. Intrinsic3D
