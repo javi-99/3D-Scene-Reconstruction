@@ -9,6 +9,7 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
 <br/> 
 <p align="center">
 <img src="./Images/motivation.gif" width="750" title="A Teaser Image"> </p>
+
 ### Classical Method: Structure-from-Motion (Colmap) and Failure Cases
 <br/>Structure-from-Motion (SfM) is the process of reconstructing 3D structure from its projections into a series of images. The input is a set of overlapping images of the same object, taken from different viewpoints. The output is a 3D reconstruction of the object, and the reconstructed intrinsic and extrinsic camera parameters of all images.I have implemented SFM and evaluated on several types of objects and found the following drawbacks.
   1. Do not have shapes as prior
