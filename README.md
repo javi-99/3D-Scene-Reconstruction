@@ -15,6 +15,7 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
   1. Do not have shapes as prior
   2. Unoccupied regions of an object
   3. Lossy post-processing steps
+<br/>
 **A brief block diagram of SFM**
 <p align="center">
 <img src="./Images/image36.png" width="750" title="Block Diagram of SFM">
@@ -26,15 +27,6 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
 </p>
 
 
-## 2. Intrinsic3D
-### High-Quality 3D Reconstruction by Joint Appearance and Geometry Optimization with Spatially-Varying Lighting (ICCV 2017)
-<br/> Intrinsic3D is a method to obtain high-quality 3D reconstructions from low-cost RGB-D sensors. The algorithm recovers fine-scale geometric details and sharp surface textures by simultaneously optimizing for reconstructed geometry, surface albedos, camera poses and scene lighting.
-
-<br/> **Repelicated Code and Experimental Work**
-<br/> Tested on the same RGB-D data used in this paper 
-| <img src="Images/lion.gif" width="300" height="300"> |
-|:--:| 
-| Reconstructed Refined Lion |
 
 # Single-View & Multi-View 3D Reconstruction 
 ## Deep Learning Based Methods
