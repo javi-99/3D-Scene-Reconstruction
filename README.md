@@ -2,7 +2,8 @@
 **Summary**
 <br/> The inverse-graphics, such as recovering 3D information from 2D views, is a big challenge. The 3D scene understanding or generating 3D shapes and textures has applications in augmented/virtual reality, computer-aided geometric design, autonomous vehicles, and many more. The traditional multi-view stereo or shape from shading based methods lack in providing surface as prior, have a small resolution, or require volumetric fusion steps. Whereas, the deep learning-based differentiable models provide 3D shape/texture or novel views of a scene without 3D supervision. We can categorize the 3D representation into either
 explicit or implicit. The point-based, voxel-based, and mesh-based are of explicit types, whereas the implicit is the continuous field to get iso-surfaces as a binary classifier decision boundary. The implicit provides high resolution, connectivity, remove the requirement of a deformable mesh template, and avoid patches overlapping in the shape’s geometry. That is why it is more flexible to store complex shapes.
-<br/><br/> **My goal is to have an efficient, expressive, and fully continuous state of the art method for objects in a real scene. The main challenges are perfect camera intrinsic and pose estimation, depth-map, an appropriate data representation able to represent 3D surfaces with complex topologies, and a differentiable neural renderer to provide an accurate and realistic novel views**
+<br/>**My Interests**
+<br/> **My goal is to have an efficient, expressive, and fully continuous state of the art method for objects in a real scene. The main challenges are perfect camera intrinsic and pose estimation, depth-map, an appropriate data representation able to represent 3D surfaces with complex topologies, and a differentiable neural renderer to provide an accurate and realistic novel views**
 
 **A teaser image on 3D-Reconstruction and Novel-Views**
 <br/> 
