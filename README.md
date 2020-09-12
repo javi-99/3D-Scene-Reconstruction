@@ -21,7 +21,7 @@ explicit or implicit. The point-based, voxel-based, and mesh-based are of explic
 
 **Implementation and Problems I Noticed**
 <p align="center">
-<img src="./Images/sfm_failures" width="750" title="Failure Cases in SFM">
+<img src="./Images/sfm_failures.gif" width="750" title="Failure Cases in SFM">
 </p>
 
 
